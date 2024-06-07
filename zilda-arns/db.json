@@ -44,13 +44,32 @@
       "phone": "(11)9823-9233",
       "email": "hq@email.com",
       "password": "12345"
+    },
+    {
+      "id": "92c2",
+      "cpf": "123.456.788-88",
+      "dob": "1989-09-28",
+      "name": "Julia Santos",
+      "phone": "(11)96668-5875",
+      "email": "juli@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "especialidades": [
+    {
+      "id": "1",
+      "name": "Cardiologia"
+    },
+    {
+      "id": "2",
+      "name": "Neurologia"
     }
   ],
   "doctors": [
     {
       "id": "1",
       "name": "Dr. Derek Shepherd",
-      "specialty": "Neurologia",
+      "especialidadeId": 1,
       "availableDates": [
         "2024-06-10",
         "2024-06-11",
@@ -65,7 +84,7 @@
     {
       "id": "2",
       "name": "Dra. Meredith Grey",
-      "specialty": "Clínico Geral",
+      "especialidadeId": 2,
       "availableDates": [
         "2024-06-15",
         "2024-06-16",
@@ -76,6 +95,48 @@
         "15:00",
         "16:00"
       ]
+    }
+  ],
+  "agendamentos": [
+    {
+      "id": "967b",
+      "paciente": "3f3c",
+      "especialidade": "1",
+      "doctor": "1",
+      "date": "2024-06-10",
+      "time": "09:00"
+    },
+    {
+      "id": "6889",
+      "paciente": "7afe",
+      "especialidade": "1",
+      "doctor": "1",
+      "date": "2024-06-11",
+      "time": "09:00"
+    },
+    {
+      "id": "97fe",
+      "paciente": "7afe",
+      "especialidade": "1",
+      "doctor": "1",
+      "date": "2024-06-11",
+      "time": "09:00"
+    },
+    {
+      "id": "f413",
+      "paciente": "f764",
+      "especialidade": "2",
+      "doctor": "2",
+      "date": "2024-06-15",
+      "time": "15:00"
+    },
+    {
+      "id": "f323",
+      "paciente": "446a",
+      "especialidade": "1",
+      "doctor": "1",
+      "date": "2024-06-12",
+      "time": "10:00"
     }
   ]
 }

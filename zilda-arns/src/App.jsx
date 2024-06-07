@@ -3,6 +3,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import MainPage from "./pages/MainPage";
 import Profile from "./pages/Profile";
+import Schedule from "./pages/Schedule";
 import Home from "./pages/Home";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
@@ -27,6 +28,7 @@ function App() {
           <Route path="/Login" element={<Login />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Profile" element={<Profile />} />
+          <Route path="/Schedule" element={<Schedule />} />
         </Routes>
       </BrowserRouter>
     </>
