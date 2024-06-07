@@ -6,8 +6,11 @@ const colors = {
   button: "#164A6C",
   errorText: "#FF0000",
   navbarBackground: "#57BDE7",
-  alertText: "#155724", 
-  alertBackground: "#d4edda" 
+  alertText: "#155724",
+  successText: "#155724",
+  successBackground: "#d4edda",
+  alertText: "#155724",
+  alertBackground: "#d4edda",
 };
 
 export const Container = styled.div`
@@ -107,4 +110,131 @@ export const AlertMessage = styled.p`
   background-color: ${colors.alertBackground};
   padding: 0.5rem;
   border-radius: 4px;
+`;
+
+export const SuccessMessage = styled.p`
+  color: ${colors.successText};
+  margin-top: 0.5rem;
+  background-color: ${colors.successBackground};
+  padding: 0.5rem;
+  border-radius: 4px;
+`;
+
+export const Navigation = styled.nav`
+  display: flex;
+  align-items: center;
+  background-color: #57bde7;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1rem;
+
+  img {
+    height: 5vh;
+  }
+  .logo {
+    height: 10vh;
+  }
+`;
+export const List = styled.ul`
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+  width: 80vw;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+
+  li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+  }
+`;
+
+export const Home = styled.main`
+  text-align: center;
+  color: #57bde7;
+  font-size: 1.5rem;
+`;
+export const FastAccess = styled.section`
+  button {
+    background-color: #eaf9ff;
+    border: 1px solid #b3e6fb;
+    border-radius: 0.7rem;
+    color: #111827;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 0.75rem 1rem;
+    margin: 3rem;
+    text-align: center;
+  }
+  button:hover {
+    font-weight: 700;
+    cursor: pointer;
+  }
+`;
+export const NextApp = styled.section`
+  color: #000000;
+  background-color: #f2f2f2;
+  width: 100vw;
+  text-align: left;
+  .ps {
+    background-color: #ffffff;
+    margin-left: 1rem;
+  }
+  div {
+    border-top: solid grey;
+    height: 60vh;
+    padding: 1rem;
+  }
+`;
+
+export const Footer = styled.footer`
+  background-color: #1f566c;
+  color: #ffffff;
+  width: 100vw;
+`;
+
+export const Container1 = styled.div`
+  display: flex;
+`;
+export const Box = styled.div`
+  width: 40rem;
+  height: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.3rem;
+`;
+export const Box2 = styled.div`
+  width: 70rem;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  font-size: 1rem;
+`;
+export const Img = styled.img`
+  width: 30px;
+`;
+export const Box3 = styled.div`
+  display: block;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+`;
+
+export const fone = styled.p`
+  font-size: 8rem;
+`;
+
+export const Profile = styled.div`
+  font-size: 2rem;
+  font-weight: bold;
 `;

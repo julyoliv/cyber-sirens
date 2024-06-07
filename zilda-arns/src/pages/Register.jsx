@@ -90,7 +90,7 @@ function Register() {
         setEmail("");
         setPassword("");
         setConfirmPassword("");
-        navigateTo("/");
+        navigateTo("/Home");
       }
     } catch (error) {
       console.error("Erro ao registrar usuário:", error);
