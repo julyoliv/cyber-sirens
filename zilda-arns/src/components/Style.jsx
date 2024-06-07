@@ -108,3 +108,86 @@ export const AlertMessage = styled.p`
   padding: 0.5rem;
   border-radius: 4px;
 `;
+
+
+
+
+
+
+
+
+
+
+export const Navegacao = styled.nav`
+    display: flex;
+    align-items: center;
+    background-color: #57BDE7;
+    font-family: "Roboto", sans-serif;
+
+    img{
+       height: 5vh;
+    }
+    .logo{
+        height: 10vh;
+    }
+`
+export const Lista = styled.ul`
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 10vh;
+width: 80vw;
+list-style: none;
+font-family: "Roboto", sans-serif;
+
+li{
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+a{
+     text-decoration: none;
+    color: black; 
+    font-size: 1rem;
+}
+`
+export const Home = styled.main`
+text-align: center;
+color: #57BDE7;
+font-size: 1.5rem;
+padding-top: 3rem;
+`
+export const AcessoRapido = styled.section`
+button {
+    background-color: #EAF9FF;
+    border: 1px solid #B3E6FB;
+    border-radius: 0.7rem;
+    color: #111827;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: .75rem 1rem;
+    margin: 3rem;
+    text-align: center;
+  }
+  button:hover {
+    font-weight: 700;
+    cursor: pointer;
+  }
+`
+export const ProxConsultas = styled.section`
+color: #000000;
+background-color: #F2F2F2;
+width: 100vw;
+text-align: left;
+.ps{
+    background-color: #FFFFFF;
+    margin-left: 1rem;
+}
+div{
+    border-top: solid grey;
+    height:60vh;
+    padding: 1rem;
+}
+`

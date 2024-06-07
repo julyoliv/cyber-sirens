@@ -41,7 +41,7 @@ function Login() {
 
       if (response.data.length > 0) {
         localStorage.setItem("token", response.data[0].id);
-        navigateTo("/");
+        navigateTo("/Home");
       } else {
         setError("CPF e/ou senha inválidos");
       }
