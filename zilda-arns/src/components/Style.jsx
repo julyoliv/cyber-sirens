@@ -108,3 +108,45 @@ export const AlertMessage = styled.p`
   padding: 0.5rem;
   border-radius: 4px;
 `;
+
+export const SectionTelaprincipal = styled.section`
+background-color:rgba(87, 189, 231, 0.8);
+display: flex;
+align-items: center;
+font-family: "Roboto", cursive;
+width: 100vw;
+height: 70vh;
+a{
+    text-decoration: none;
+    color: black;}
+
+div{ 
+
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1{
+    width: 48vw;
+    font-size: 1,5rem;
+    color:#1F566C;
+    text-align: justify;
+    
+    }
+
+
+h2{
+    color: white;
+    font-size: 3rem;
+    text-align: justify;
+    margin-top: 15px;
+    }
+ `
+
+export const Imagemmoça = styled.img`
+width: 50vw;
+height: 50vh;                                  ;
+`
