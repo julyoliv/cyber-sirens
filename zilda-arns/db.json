@@ -26,6 +26,24 @@
       "phone": "(11)77777-7777",
       "email": "supergirl@email.com",
       "password": "12345"
+    },
+    {
+      "id": "f764",
+      "cpf": "231.231.231-23",
+      "dob": "1999-03-12",
+      "name": "Naruto Uzumaki",
+      "phone": "(11)92838-2322",
+      "email": "naruto@email.com",
+      "password": "12345"
+    },
+    {
+      "id": "446a",
+      "cpf": "342.342.321-23",
+      "dob": "1987-03-12",
+      "name": "Harley Quinn",
+      "phone": "(11)9823-9233",
+      "email": "hq@email.com",
+      "password": "12345"
     }
   ],
   "doctors": [

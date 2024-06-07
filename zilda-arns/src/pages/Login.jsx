@@ -37,11 +37,10 @@ function Login() {
       const response = await axios.get(
         `http://localhost:5000/users?cpf=${cpf}&password=${password}`
       );
-      console.log("Login Response:", response);
 
       if (response.data.length > 0) {
         localStorage.setItem("token", response.data[0].id);
-        navigateTo("/");
+        navigateTo("/Home");
       } else {
         setError("CPF e/ou senha inválidos");
       }
