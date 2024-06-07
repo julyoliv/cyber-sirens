@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "5c4e",
+      "cpf": "123.456.789-10",
+      "dob": "1912-12-12",
+      "name": "Marceline Abadeer",
+      "phone": "(11)99999-9999",
+      "email": "marcy@email.com",
+      "password": "12345"
+    },
+    {
+      "id": "3f3c",
+      "cpf": "987.654.321-10",
+      "dob": "2003-02-06",
+      "name": "Jhon Doe",
+      "phone": "(11)88888-8888",
+      "email": "jhon@email.com",
+      "password": "12345"
+    },
+    {
+      "id": "7afe",
+      "cpf": "098.765.432-10",
+      "dob": "2011-02-07",
+      "name": "Kara Zorel",
+      "phone": "(11)77777-7777",
+      "email": "supergirl@email.com",
+      "password": "12345"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Derek Shepherd",
+      "specialty": "Neurologia",
+      "availableDates": [
+        "2024-06-10",
+        "2024-06-11",
+        "2024-06-12"
+      ],
+      "availableTimes": [
+        "09:00",
+        "10:00",
+        "11:00"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dra. Meredith Grey",
+      "specialty": "Clínico Geral",
+      "availableDates": [
+        "2024-06-15",
+        "2024-06-16",
+        "2024-06-17"
+      ],
+      "availableTimes": [
+        "14:00",
+        "15:00",
+        "16:00"
+      ]
+    }
+  ]
+}
