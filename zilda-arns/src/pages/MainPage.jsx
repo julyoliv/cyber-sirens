@@ -3,6 +3,7 @@ import * as S from "../components/Style.jsx";
 import { Link, useNavigate } from "react-router-dom";
 import MainImg from "../assets/main-img.png";
 import Logo from "../assets/main-logo.png";
+import Footer from "../components/Footer.jsx";
 
 function MainPage() {
   const navigate = useNavigate();
@@ -38,6 +39,7 @@ function MainPage() {
             acolhedor. Junte-se a nós na jornada para uma vida mais saudável.
           </h1>
         </div>
+        
       </S.MainPage>
     </>
   );

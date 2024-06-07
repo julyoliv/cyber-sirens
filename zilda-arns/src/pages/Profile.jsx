@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import * as S from "../components/Style.jsx";
 import HzaLogo from "../assets/hza-logo-blue.jpeg";
-
+import Header from "../components/Header.jsx";
 function Profile() {
   return (
     <S.Container>
+    
       <S.NavBar1>
         <img src={HzaLogo} alt="HZA logo" />
         <h3>Portal do Paciente</h3>
