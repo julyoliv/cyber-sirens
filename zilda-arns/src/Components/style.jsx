@@ -38,3 +38,9 @@ export const Box3 = styled.div`
 export const fone = styled.p`
   font-size: 8rem;
 `;
+
+
+
+
+
+

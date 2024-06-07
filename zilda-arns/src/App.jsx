@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from  './Components/footer.jsx'
-
+//import Footer from  './Components/footer.jsx'
+import Agenda from  './Components/calendar.jsx'
 
 function App() {
  
@@ -8,7 +8,8 @@ function App() {
   return (
     <>
       <div>
-        <Footer />
+        
+        <Agenda />
       </div>      
       
     </>
